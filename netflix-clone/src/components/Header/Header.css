@@ -6,12 +6,21 @@
   align-items: center;
   background-color: #202020;
   /* background-color: transparent; */
-  height: 10vh;
+  height: 68px;
   color: white;
   transition:all 0.5s ;
   transition-timing-function: ease-in;
   z-index: 1;
-  /* background-color: red; */
+ 
+
+}
+.NetflixLogo{
+  position: fixed;
+  left: 20px;
+  width: 90px;
+  
+  
+  
 }
 .nav__black{
   background-color: #202020;

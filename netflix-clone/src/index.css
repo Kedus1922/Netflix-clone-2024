@@ -1,12 +1,9 @@
 
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
 }
-
-
-
 
 * {
   margin: 0;
@@ -15,4 +12,10 @@ code {
 }
 body{
   background: #111;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }

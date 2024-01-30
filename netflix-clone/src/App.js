@@ -1,3 +1,4 @@
+import requests from './Utils/requests';
 import './App.css';
 import Home from './pages/Home/Home';
 function App() {

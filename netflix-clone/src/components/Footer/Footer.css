@@ -20,6 +20,8 @@
 .footer_data{
   display: flex;
   justify-content: space-between;
+  /* margin-left: 200px;
+  margin-right: 200px; */
 }
 
 .footer_data ul{
@@ -36,10 +38,17 @@
 }
 
 .service_code{
-
+color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 10%;
+margin: 10px 0;
+cursor: pointer;
 }
 
 
 .copy-write{
+
   
 }

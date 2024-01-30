@@ -1,16 +1,17 @@
 import React, { useEffect, useState } from 'react'
 import "./row.css"
 import axios from '../../../Utils/axios'
-import movieTrailer from 'movie-trailer';
-import youTube from 'react-youtube'
+import movieTrailer from "movie-trailer";
+import YouTube from 'react-youtube';
 
+
+const base_url = "https://image.tmdb.org/t/p/original";
 
 
 const Row = ({ title, fetchUrl, isLargeRow}) => {
   const [movie, setMovie] = useState([]);
   const [trailerUrl, setTrailerUrl] = useState("");
 
-  const base_url = "https://image.tmdb.org/t/p/original";
 
   useEffect(() => {
     (async() => {
@@ -54,13 +55,13 @@ const opts = {
         {movie?.map((movie, index) => (
           <img
           onClick={() => handleClick(movie)}
-          key={index} src={`${base_url}${isLargeRow ? movie.poster_path : movie.backdrop_path}`} alt={movie.name} className={`row__poster $} {isLargeRow && "row__posterLarge"}`}
+          key={index} src={`${base_url}${isLargeRow ? movie.poster_path : movie.backdrop_path}`} alt={movie.name} className={`row__poster $ {isLargeRow && "row__posterLarge"}`}
 
           />
         ))}
       </div>
       <div style={{ padding: '40px'}}>
-        {trailerUrl && <youTube videoId={trailerUrl} opts={opts} />}
+        {trailerUrl && <YouTube videoId={trailerUrl} opts={opts} />}
 
       </div>
 
@@ -68,4 +69,4 @@ const opts = {
   )
 }
 
-export default Row
+export default Row;

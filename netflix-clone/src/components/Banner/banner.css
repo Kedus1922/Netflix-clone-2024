@@ -1,6 +1,6 @@
 .banner{
   margin-top: -10vh;
-  height: 80vh;
+  height: 95vh;
   margin-bottom: -80px;
   color: white;
   object-fit: contain;
@@ -23,7 +23,7 @@
   max-width: 360px;
   height: 80px;
 }
-.banner__buttons{
+.banner__button{
   cursor: pointer;
   color: white;
   outline: none;
@@ -31,14 +31,18 @@
   font-size: 1.2rem;
   font-weight: 700;
   border-radius: 0.2vw;
-  padding: 1rem 3rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
   margin-right: 2rem;
-  background-color: rgba(51,51,51,0.5);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: rgba(51, 51, 51, 0.5);
 
 }
 .play{
   color: #000;
   background-color: #fff;
+
 }
 .banner__button:hover {
   color: #000;
@@ -47,7 +51,7 @@
 }
 
 .banner__fadeBottom{
-  height: 40vh;
+  height: 50vh;
   background-image: linear-gradient(
     180deg,
     transparent,
