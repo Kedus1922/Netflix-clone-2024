@@ -26,7 +26,7 @@
   transform: scale(1.08);
 }
 .row__poster {
-  max-height: 175px;
+  max-height: 150px;
 }
 .row__posterLarge:hover{
   transform: scale(1.08);
