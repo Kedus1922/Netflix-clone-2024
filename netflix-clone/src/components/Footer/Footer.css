@@ -45,6 +45,8 @@ justify-content: center;
 width: 10%;
 margin: 10px 0;
 cursor: pointer;
+border: 1px solid white;
+width: 100px;
 }
 
 
